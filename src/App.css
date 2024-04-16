@@ -1,0 +1,56 @@
+/* App.css */
+.App {
+  text-align: center;
+  margin-top: 200px;
+  padding: 0;
+}
+
+form {
+  margin-bottom: 20px;
+}
+
+input {
+  padding: 8px;
+  margin-right: 10px;
+}
+
+button {
+  padding: 8px 20px;
+  background-color: #de97c8;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #b50faf;
+  transform: translateY(-2px);
+}
+
+
+.error {
+  color: red;
+}
+
+.user-card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 20px;
+  max-width: 300px;
+  margin: 0 auto;
+  background-image:url(https://img.freepik.com/premium-vector/blue-curve-frame-template_53876-174347.jpg?w=740) ;
+}
+
+.user-card img {
+  width: 100px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.user-card h2 {
+  margin-top: 0;
+}
+
+.user-card p {
+  margin: 5px 0;
+}
